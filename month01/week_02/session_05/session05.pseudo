@@ -1,0 +1,189 @@
+// Exercise 01
+
+START
+     Input name
+     Print "Hello ," + name + "!"
+END
+
+//Exercise 02
+START
+    input num1
+    input num2
+    if num1 > num2 then
+        print num2
+    else
+        print num2
+    endif
+END
+
+
+//Exercie 11
+START
+    for i from 1 to 10 do
+        display i
+    end for
+end
+
+//Exercise 3
+START
+    input number
+    if number MOD 2 = 0 then
+        print "Number is even"
+    else
+        print "Numver is odd"
+endif
+end
+
+//Exercise 4
+START
+    input num1
+    input num2 
+    sum = num1 +num2
+        print "The sum is" + sum
+end 
+
+//Exercise 5
+START
+    print "Give me your score"
+    input num
+    if num >= 50
+        print "Pass"
+    else 
+        print "Fail"
+    endif
+END
+
+//Exercise 6
+START
+    input num1
+    input num2
+    input num3
+    set smallest = num1
+    if num2 < smallest then
+        smallest = num2
+    if num3 < smallest then
+        smallest = num3
+    endif
+    print "The smallest number is " + smallest
+END
+
+//Exercise 7
+START
+    print "Give me your username"
+    input username
+    if username == "admin" 
+        Print "Welcome!"
+    else
+        print "Access Denied"
+    endif
+END
+
+//Exercise 9
+START
+    input age
+    if age <12
+        print "Child Ticket"
+    if (age >= 12) and (age<65)
+        print "Adult Ticket"
+    if age > 65 
+        print "Senior Ticket"
+    endif
+END
+
+//Exercise 10
+START
+    input num "Temperature in Celcius"
+    F = num * 1.8 +32
+    print "Temperature in Fahrenheit is:" + F
+END
+
+//Exercise 11
+START
+    input number
+    set i = 1
+    while i <= 10 do
+        print num  "x" , i , "=", num * i
+        i = i+1
+    end
+END
+
+//Exercise 12
+START
+    input num N
+    set i = N
+    while i >= 1 do
+        print i
+        i = i - 1
+    end 
+END
+
+//Exercise 13
+START
+    set sum = 0
+    set count = 1
+    while count <=5 do
+        print "Enter number" , count
+        input num 
+        sum = sum + num 
+        count = count +1 
+    end
+    print "the sum of 5 is" , sum
+END
+
+//Exercise 14
+START
+    input num (0-100) score
+    if score >= 90
+        print "A"
+    if score >=80 and score <= 89
+        print "B"
+    if score >=70 and score <=79
+        print "C"
+    if score >=60 and score <=69
+        print "D"
+    else
+        print "F"
+    endif
+END
+
+//Exercise 15
+START
+ input num amount
+ input num balance
+    if amount <= balance 
+        balance = balance - amount
+        print "New balance is:", balance
+    else 
+        print "Insufficient funds"
+    endif
+END
+
+//Exercise 17
+START
+    repeat
+        print "Enter number"
+        input sum
+    until num = 0
+END
+
+//Exercise 18
+START
+    input num age
+    input str nationality
+    if age >= 18 and nationality is "Country X"
+        print "Eligible to vote"
+    else
+        print "Not eligible"
+    endif
+END    
+
+
+//Exercise 20
+START
+input answer "Is it raining?"
+    if answer == "yes" then
+        print "Take umbrella"
+    else 
+        print "No umbrella needed"
+    endif
+END
