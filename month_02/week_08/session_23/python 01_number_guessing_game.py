@@ -35,4 +35,5 @@ def play_game():
         guess = input("Enter your guess:")
         guess = int(guess)
         guess_count += 1
+        guesses_left = max_guess - guess_count
 
