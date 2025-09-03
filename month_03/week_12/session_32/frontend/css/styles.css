@@ -1,0 +1,18 @@
+p{
+    width: 200px;
+    background-color: aqua;
+    color: blue;
+    border: 1px solid black;
+}
+
+ul {
+    font-style: italic;
+    background-color: blueviolet;
+}
+.movies{
+    font-weight: 700;
+}
+#Favorite {
+    color: red;
+    font-size: 15px;
+}
