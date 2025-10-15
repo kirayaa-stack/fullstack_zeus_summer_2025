@@ -1,0 +1,152 @@
+body {
+    background-color: #080808;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* main design */
+
+main {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B1B1B;
+    width: 100%;
+    height: 70px;
+    border-radius: 8px;
+
+}
+
+
+.navbar ul {
+    flex-flow: row;
+    list-style: none;
+    display: flex;
+    gap: 70px;
+    top: 24px;
+    left: 180px;
+    height: 18px;
+    width: 717px;
+
+}
+
+.navbar ul li {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 1%;
+    color:#9C9C9C;
+;
+}
+
+.navbar .socials {
+    margin-left: 100px;
+    color: #FFFFFF;
+}
+/* navbar style ends */
+
+/* main content styles start */
+.hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 40px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 1%;
+
+}
+
+.img img {
+    width: 350px;
+    height: 350px;
+    opacity: 1;
+    border-radius: 50%;
+}
+
+.hero .content {
+    max-width: 500px;
+    width: 538;
+    height: 247;
+    opacity: 1;
+    top: 201px;
+    left: 180px;
+    gap: 30px;
+
+
+}
+
+.hero h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.hero p {
+    margin-bottom: 20px;
+    color: grey;
+    line-height: 20px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 1%;
+}
+.hero .button{
+    border-radius: 4px;
+    width: 307.89px;
+    height: 63px;
+    color: white;
+    border-color: #62ba1b;
+    background-color: #3f8e00;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 1%
+}
+
+
+/* main content styles end */
+
+
+/* footer section start */
+
+.worked-with{
+    text-align: start;
+    width: 920px;
+    height: 18px;
+    gap: 10px;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 1%
+}
+.Logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.worked-with .logo { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-weight: bold;
+    background-color: #080808;
+    border: #1B1B1B solid;
+    width: 100%;
+    height: 60px;
+}
+/* footer section end */
