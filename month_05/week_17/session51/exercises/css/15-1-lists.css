@@ -1,0 +1,33 @@
+#style{
+    list-style-type: circle;
+}
+#roman{
+    list-style-type: lower-roman;
+}
+#fruits{
+    list-style-type: upper-alpha;
+}
+#animals{
+    list-style-type: square;
+}
+#instrument{
+    list-style-image:url(../images/star.png);
+}
+#instrument li{
+    margin-left: 10px;
+}
+.Vegetables ol{
+    list-style-type: square;
+}
+.Fruits ol{
+    list-style-type: circle;
+}
+.Dairy ol{
+    list-style-type: armenian;
+}
+.Ingredients{
+    list-style-image: url(../images/pork-spoon.png);
+}
+.Steps{
+    list-style-type: lower-latin;
+}

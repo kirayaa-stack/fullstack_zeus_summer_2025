@@ -1,0 +1,152 @@
+.bold{
+    font-weight: bold;
+}
+#normal{
+    font-weight: normal;
+}
+#lighter{
+    font-weight: lighter;
+}
+#weight100{
+    font-weight: 100;
+}
+#weight900{
+    font-weight: 900;
+}
+#italic em{
+    font-style: italic;
+}
+#normal{
+    font-style: normal;
+}
+.oblique{
+    font-style: oblique;
+}
+#uppercase{
+    text-transform: uppercase;
+}
+#capitalize{
+    text-transform: capitalize;
+}
+#condensed{
+    font-stretch: condensed;
+}
+#expanded{
+    font-stretch: expanded;
+}
+#monospace{
+    font-family: monospace;
+}
+#fantasy{
+    font-family: fantasy;
+}
+.pixel1{
+    font-size: 10px;
+}
+.pixel2{
+    font-size: 15px;
+}
+.pixel3{
+    font-size: 20px;
+}
+.pixel4{
+    font-size: 25px;
+}
+.pixel5{
+    font-size: 30px;
+}
+#overline{
+    text-decoration: line-through;
+}
+#underline{
+    text-decoration: underline;
+}
+#blink{
+    -moz-text-blink: ;
+}
+.new-times-roman{
+    font-family: 'Times New Roman', Times, serif;
+}
+.arial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.courier{
+    font-family: 'Courier New', Courier, monospace;
+}
+#spacing1{
+    letter-spacing: 10px;
+    word-spacing: 20px;
+}
+#spacing2{
+    letter-spacing: -2px;
+    word-spacing: -2px;
+}
+#blank{
+    text-align: start;
+    vertical-align: middle;
+    text-indent: 100px;
+}
+#left{
+    text-align: left;
+}
+#right{
+    text-align: right;
+}
+#nonending{
+    text-align:end;
+}
+#shadow1{
+    text-shadow: 1px 1px 1px black;
+}
+#shadow2{
+    text-shadow: 3px 2px 1px red;
+}
+#shadow3{
+    text-shadow: -4px -2px 1px #eb4034;
+}
+#shadow4{
+    text-shadow: -4px 3px 3px #398055;
+}
+#shadow5{
+    text-shadow: -4px 3px 4px #398055;
+}
+#pseudo1::first-letter{
+    font-size: 200%;
+}
+#pseudo2::first-letter{
+    font-size: large;
+}
+#pseudo3::first-letter{
+    font-size: xx-small;
+}
+#pseudo4::first-letter{
+    font-weight:bolder;
+}
+#pseudo5::first-letter{
+    color: #eb4034;
+}
+#pseudo6::first-letter{
+    color: #eb4034;
+    text-shadow: 2px 2px 2px black;
+}
+.briard{
+    color:#0088dd;
+    text-shadow: 2px 2px 2px #666666;;
+}
+.fur{
+    color: #0088dd;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.breed{
+    color: #0088dd;
+}
+.History{
+    color: #0088dd;
+}
+.credits{
+    text-align: right;
+}
+.intro{
+    color:#665544;
+
+}
