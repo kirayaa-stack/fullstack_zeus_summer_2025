@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-Flexbox</title>
+    <link rel="stylesheet" href="./flexbox.js">
+ </head>
+<body>
+    <h1>JS-Flexbox</h1>
+    <div id="root"></div>
+    <script>
+        const container = document.createElement('div');
+        container.style.display = 'flex';
+        container.style.gap = '30px';
+        container.style.padding = '30px';
+        container.style.backgroundColor = 'grey';
+        container.style.borderRadius = '450px';
+
+        const colors = ['blue', 'green', 'red'];
+        const labels = ['Element 1', 'Element 2', 'Element 3'];
+
+        for (let i = 0; i < 3; i++) {
+            const item = document.createElement('div');
+            item.style.flex = '1';
+            item.style.padding = '50px';
+            item.style.borderRadius = '100px';
+            item.style.backgroundColor = colors[i];
+            item.style.color = 'white';
+            item.style.fontSize = '20px';
+            item.style.textAlign = 'center';
+            item.style.fontWeight = 'bold';
+            item.style.display = 'flex';
+            item.style.alignItems = 'center';
+            item.style.justifyContent = 'center';
+            item.textContent = labels[i];
+            document.getElementById('root').appendChild(container);
+            document.getElementById('root').appendChild(container);
+
+            container.appendChild(item);
+        }
+        document.getElementById('root').appendChild(container);
+    </script>
+</body>
+</html>

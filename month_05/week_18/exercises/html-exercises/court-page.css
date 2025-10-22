@@ -1,0 +1,17 @@
+body{
+    text-align: center;
+    background-color: #ffffff;
+}
+h1{
+    background-color: #f36c9b;
+    color: white;
+}
+form{
+    border: 2px dotted palevioletred;
+    background-color: #f9ffff;
+}
+
+
+#Facility{
+    margin-top: 10px;
+}
