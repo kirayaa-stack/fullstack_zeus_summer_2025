@@ -1,0 +1,147 @@
+body {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 20px;
+    color: #212342;
+    background-color: #ffff;
+}
+main{
+    max-width: 1152px;
+    margin: 0 auto;
+    
+}
+
+
+.navbar{
+    display: flex;
+    justify-content:end;
+    align-items:end;
+    padding: 24px 10%;
+    margin-left: 650px;
+    flex-wrap: wrap;
+
+}
+.navbar a{
+    margin-left: 30px;
+    color:#000000;
+    text-decoration: none;
+    font-weight:500px;
+}
+.Hero{
+    padding: 60px 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 40px;
+    font-weight: 400;
+    letter-spacing: 1%;
+
+}
+.hero-text{
+    min-width: 506px;
+    flex: 1;
+}
+.Hero p{
+    max-width: 497px;
+}
+.img img {
+    opacity: 1;
+    border-radius: 50%;
+    margin-right: 150px;
+    box-shadow: 0 10px 20px black;
+    
+}
+button{
+    background-color: #ff6464;
+    padding: 24px 10%;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-top: 40px;
+}
+.recent-posts{
+    background-color: #EDF7FA;
+    max-width: 1152px;
+}
+.section-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section-header h3{
+    margin-left: 50px;
+}
+.section-header a{
+    color: #00A8CC;
+    margin-right: 200px;
+    size: 22px;
+    line-height: 60px;
+    text-decoration: none;
+}
+.posts{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-left: 50px;
+
+}
+.post{
+    background-color: #ffff;
+    width: 418px;
+    height: 295px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.post h2{
+    width: 374px;
+    margin-left: 20px;
+}
+.date{
+    margin-left: 20px;
+    margin-top: 2%;
+}
+.post p{
+    margin-left: 20px;
+    font-weight: 400px;
+    line-height: 28px;
+}
+.Featured-works{
+    margin-left:50px;
+}
+.work{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.work-info{
+    margin-left: 20px;
+}
+.work-info a{
+    margin: 0px;
+    text-decoration: none;
+    color: #21243D;
+}
+.work-info .year{
+    display: inline-block;
+    background-color: #142850;
+    color: #EDF7FA;
+    border-radius: 16px;
+    margin: 10px 10px 10px 0;
+    font-size: 18px;
+    padding: 2px 10px;
+}
+span{
+    color: #8695A4;
+}
+.work-info p{
+    line-height: 28px;
+}
+footer{
+    text-align: center;
+    padding: 40px 0;
+}
+.socials img{
+    width: 24px;
+    margin: 0 10px;
+}
