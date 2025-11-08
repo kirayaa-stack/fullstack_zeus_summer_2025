@@ -1,47 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book List</title>
     <style>
-        body{
+        body {
             font-family: sans-serif;
             max-width: 800px;
             margin: auto;
             padding: 20px;
         }
-        h1{
+
+        h1 {
             color: #333;
         }
-        .book{
+
+        .book {
             border: 1px solid #ddd;
             padding: 10px 15px;
             margin-bottom: 10px;
             border-radius: 5px;
         }
-        .book h3{
+
+        .book h3 {
             margin: 0;
         }
+
         .book p {
             color: #555;
         }
+
+        /* Update section */
+        .book-actions a {
+            text-decoration: none;
+            padding: 5px 10px;
+            border-radius: 3px;
+            margin-left: 5px;
+            color: white;
+        }
+
+        .edit-link {
+            background-color: #ffc107;
+        }
+
+        /* Шар */
+        .edit-link:hover {
+            background-color: #e0a800;
+        }
+
+        .delete-link {
+            background-color: #dc3545;
+        }
+
+        /* Улаан */
+        .delete-link:hover {
+            background-color: #c82333;
+        }
+
+        .delete-link {
+            background-color: #dc3545;
+        }
+
+        .delete-link:hover {
+            background-color: #c82333;
+        }
     </style>
 </head>
+
 <body>
     <h1>The books in library</h1>
     <hr>
 
     {% for book in books_key %}
-       <div class="book">
-           <h3>{{book.title}}</h3>
-           <p>Author Name: {{book.author_name}}</p>
-      </div>
+    <div class="book">
+        <h3>{{book.title}}</h3>
+        <p>Author Name: {{book.author_name}}</p>
+    </div>
+
+    <div class="book-actions">
+        <a href="{% url 'book_update' book.pk %}" class="edit-link">
+            Edit
+        </a>
+        <a href="{% url 'book_delete' book.pk%}" class="delete-link">
+            Delete
+        </a>
+    </div>
 
     {% empty %}
-           <p>No Book is registered</p>
-           
-    {% endfor %} 
-      
+    <p>No Book is registered</p>
+
+    {% endfor %}
+
 </body>
+
 </html>
