@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="mn">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-
+scale=1.0">
+
+    <title>{% block title %}Миний Django Сайт{% endblock %}</title>
+</head>
+
+<body>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+    
+    <script src="{% static 'dist/main.js' %}" defer></script>
+</body>
+
+</html>
