@@ -1,0 +1,39 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Foodie Go</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+<header class="navbar">
+    <div class="nav-wrapper">
+
+       
+        <div class="nav-left">
+            <div class="logo">Foodie <span>Go</span></div>
+        </div>
+
+        <div class="toggle">
+            <div class="tab active">Delivery</div>
+                <div class="tab">Pickup</div>
+
+            <div class="address">
+                <span class="dot"></span>
+                <span>136 Greenpoint Ave</span>
+            </div>
+        </div>
+
+        <div class="cart">🛒</div>
+            <div class="nav-right">
+                <a href="#" class="signin">Sign In</a>
+                 <button class="btn">Create account</button>
+             </div>
+
+    </div>
+</header>
+
+</body>
+</html>
