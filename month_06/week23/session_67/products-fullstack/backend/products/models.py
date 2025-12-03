@@ -1,7 +1,6 @@
 from django.db import models
 
 # Create your models here.
-
 class Category(models.Model):
     """Бүтээгдэхүүний ангилал"""
     name = models.CharField(max_length=100, verbose_name="Ангилалын нэр")
@@ -42,7 +41,7 @@ class Product(models.Model):
         updated_at = models.DateTimeField(auto_now=True)
 class Meta:
     verbose_name = "Бүтээгдэхүүн"
-    verbose_name_plural = "Бүтээгдэхүүнүүд  "
+    verbose_name_plural = "Бүтээгдэхүүнүүд"
     ordering = ['-created_at']
 def __str__(self):
         return self.name
